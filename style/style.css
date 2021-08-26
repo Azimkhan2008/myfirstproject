@@ -1,0 +1,150 @@
+body{
+	margin:0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: "Poppins", sans-serif; 
+}
+.menu{
+	width: 150px;
+	font-weight: bold;
+	color: white;
+	background: #45015d;
+	border-radius: 15px;
+	padding: 10px 20px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	/*Чтобы сделать элемент на всю высоту страницы*/
+}
+.menu a{
+	color: inherit;
+	text-decoration: none;
+	width: 100%;
+	padding: 8px 16px;
+	box-sizing: border-box;
+	display: block;
+}
+.menu a:hover{
+	background: white;
+	color: black;
+}
+h1{
+	font-size: 64px;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+h2{
+	color: #45015d;
+	font-size: 48px;
+	font-weight: 400;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+hr{
+	width: 100%;
+	border: none;         
+ 	border-top:10px solid #45015d;
+ 	border-radius: 4px;
+ 	margin: 20px 0; 
+}
+.main{
+	margin-left: 360px;
+	margin-right: 40px;
+	margin-top: 80px;
+}
+.images img{
+	width: 45%;
+	border-radius: 10px;
+	margin: 5px;
+	opacity: 0.7;
+}
+.images img:hover{
+	opacity: 1;
+}
+.member{
+	padding: 8px 8px;
+	width: 30%;
+	display: inline-block;
+	box-sizing: border-box;
+	min-width: 200px;
+}
+.member img{
+	filter: grayscale(30%);
+	border-radius: 10px;
+	width: 100%;
+	min-width: 50px;
+	
+}
+.member .p{
+	color: #9A9797;
+}
+.member .position{
+	background-color: #EBE5E5;
+	border-radius: 10px;
+}
+.block{
+	display: inline-block;
+	width: 45%;
+	margin: 10px;
+	vertical-align: middle;
+	background: white;
+	padding: 0;
+	min-width: 180px;
+}
+.block li{
+	list-style-type: none;
+	border-bottom: 1px solid #ddd; 
+	padding: 16px 0;
+}
+.block .tarif{
+	color: white;
+	background: #45015d;
+	font-size: 24px;
+	padding: 32px 0;
+	text-align: center;
+}
+.block .better{
+	background: #F95757;
+}
+.block a{
+	text-decoration: none;
+	background-color: white;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #45015d;
+	padding: 13px ;
+	margin-top: 10px; 
+}
+.cost{
+	font-weight: 200;
+	font-size: 35px;
+}
+.period{
+	opacity: 0.6;
+}
+.block li:last-child{
+	background: #f1f1f1;
+}
+#packages{
+	text-align: center;
+}
+.block .qwerty{
+	color: white;
+	background: #F95757;
+}
+#contact button{
+	background: #45015d;
+	color: white;
+	padding: 10px 16px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	width: 1100px;
+	height: 50px;
+}
+#contact input{
+	width: 1100px;
+	height: 30px;
+}
